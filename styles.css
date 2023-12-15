@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Rethink Sans', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #2B1000;
+}
+header h1{
+    color: #D6A224;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}
+header nav{
+    background-color: #D6A224;
+}
+div{
+    background-color: #FFECBD;
+    margin: .5rem;
+}
+div h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #D6A224;
+}
+a img{
+    width: 3rem;
+    max-width: 100%;
+}
+header>nav>a{
+    background-color: #D6A224;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+header>nav>a:hover{
+    color: #D6A224;
+    background-color: #FFECBD;
+    border: 2px solid #2B1000;
+}
+@media (min-width:1000px){
+    div img{
+        width: 25rem;
+        max-width: 100%;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+    p{
+        margin: 2rem;
+    }
+    h2{
+        margin: 1rem;
+    }
+    div img{
+        margin: 1rem;
+    }
+    header img{
+        width: 30rem;
+        max-width: 100%;
+    }
+    h1{
+        font-size: 5rem;
+    }
+}
